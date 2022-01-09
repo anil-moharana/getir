@@ -4,7 +4,7 @@
 const express = require('express');
 // load env file
 require('dotenv').config();
-// init mongoose
+// initialize mongoose
 require('./src/db/mongoose');
 
 const { Constants } = require('./src/common/Constants');
