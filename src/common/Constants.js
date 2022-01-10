@@ -22,6 +22,7 @@ exports.Constants = {
     listenSuccess: 'listening on',
     initiateRoutes: 'registering Routes',
     methodcall: 'methodcall',
+    defaultRoute:'App is Running Successfully',
 
   },
   strings: {

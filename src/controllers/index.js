@@ -13,12 +13,22 @@ class BaseController extends Controller {
     this.logs = Constants?.logs;
     this.strings = Constants?.strings;
     this.recordServiceBaseUrl = RecordServiceConfig?.recordService?.baseUrl;
+    this.appBaseUrl= RecordServiceConfig?.app?.baseUrl;
     this._initRouters();
   }
 
   _initRouters() {
     const method = this.method?._initRouters;
     logger.info(`${this.class} : ${method} : ${this.logs.initiateRoutes}`);
+    //route handler for default route url
+    this.router.get(this.appBaseUrl,(req,res)=>{
+      res.setHeader('Content-Type','text/html')
+      res.write(`
+      <h3>${this.logs.defaultRoute}</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5AtSFeINaYm6JQjHMJECuw8nSAqt2HM8DSw&usqp=CAU">
+      `)
+      res.end();
+    })
     this.router.use(this.recordServiceBaseUrl, require('./RecordController').router);
   }
 }
