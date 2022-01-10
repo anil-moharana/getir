@@ -78,6 +78,6 @@ Response payload:
  
  ##** Postman Sample **
 
-<img src="https://github.com/anil-moharana/assets/blob/main/postman_RecordService.png" width="600">
+
 <img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.57.19%20AM.png" width="600">  
 
