@@ -45,11 +45,6 @@ Response payload:
             "totalCount": 25
         },
         {
-            "key": "EWbtLhxM",
-            "createdAt": "2016-06-01T08:49:24.976Z",
-            "totalCount": 24
-        },
-        {
             "key": "ZrSnbmMX",
             "createdAt": "2015-04-25T13:40:01.587Z",
             "totalCount": 24
