@@ -14,6 +14,17 @@ PORT=7001
 HOST=localhost:7001
 MONGO_URI= mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true
 ```
+##** Log file generated for reference**
+```
+File:
+info.log >>>
+{"level":"info","message":"Application : listen : listening on 7001"}
+{"level":"info","message":"BaseController : _initRouters : registering Routes"}
+{"level":"info","message":"RecordController : _initRouters : registering Routes"}
+{"level":"info","message":"Application : listen : listening on 7001"}
+error.log >>>
+{"level":"error","message":"ErrorHandler : error : 404 Url Not Found"}
+```
 
 ##**RecordService Api**
 ```
