@@ -3,4 +3,3 @@ logs
 *.logs
 *.lcov
 coverage
-package-lock.json
