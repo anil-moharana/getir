@@ -2,7 +2,7 @@
 
 ##**Steps to Run**
 
-1. git clone <repo>
+1. git clone repolink
 2. Run "npm install" to install npm modules
 3. Navigate inside of src folder
 4. Run "npm run start" to start the server.
