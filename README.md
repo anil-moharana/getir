@@ -26,9 +26,8 @@ error.log >>>
 {"level":"error","message":"ErrorHandler : error : 404 Url Not Found"}
 ```
 ##** Local Start up server page**
-<img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.44.43%20AM.png" width="500">  
-    
 
+<img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.44.43%20AM.png" width="600">  
     
 ##**RecordService Api**
 ```
@@ -58,7 +57,7 @@ Response payload:
     ]
 }
 ```
-Enhancements to be done:
+##**Enhancements to be done**
 1. Testcase needs to be added for each file and coverage has to be generated
 2. Centralized detailed logger needs to be added.
 3. eslint needs to added.
@@ -67,13 +66,15 @@ Enhancements to be done:
 6. appmetrics an be added to see the performance.
 7. logging duration and showing apdex score in grafana panels can be helpful in case of more apdex score.
 
-<img src="https://github.com/anil-moharana/assets/blob/main/postman_RecordService.png" width="1000">
     
     
  ##** Heroku Start up server page**
  ```
  heroku url post deployment : https://getir-api-service.herokuapp.com/
+ heroku RecordSevice POST endpoint:  https://getir-api-service.herokuapp.com/records/listRecords
  ```
-<img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.53.22%20AM.png" width="500">  
-<img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.57.19%20AM.png" width="500">  
+ ##** Postman Sample **
+
+<img src="https://github.com/anil-moharana/assets/blob/main/postman_RecordService.png" width="600">
+<img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.57.19%20AM.png" width="600">  
 
