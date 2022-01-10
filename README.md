@@ -65,6 +65,7 @@ Response payload:
 5. rate-limilt can be implemented for public api if required.
 6. appmetrics an be added to see the performance.
 7. logging duration and showing apdex score in grafana panels can be helpful in case of more apdex score.
+8. Api Details needs to be documented in wiki.
 
     
     
