@@ -25,7 +25,9 @@ info.log >>>
 error.log >>>
 {"level":"error","message":"ErrorHandler : error : 404 Url Not Found"}
 ```
-
+##** Start server page**
+<img src="https://github.com/anil-moharana/assets/blob/main/Screenshot%202022-01-10%20at%207.44.43%20AM.png" width="1000">  
+    
 ##**RecordService Api**
 ```
 POST endpoint:  /records/listRecords
