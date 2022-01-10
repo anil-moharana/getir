@@ -60,7 +60,7 @@ Response payload:
 5. husky hooks needs to be added for checking coverage before pushing.
 6. rate-limilt can be implemented for public api if required.
 7. appmetrics an be added to see the performance.
-8. logging duration and showing apdex score in grafana panels can be helpful in case of more apdex score.
+8. logging duration and showing apdex score in grafana panels can be helpful.
 9. Api Details needs to be documented in wiki.
 
     
